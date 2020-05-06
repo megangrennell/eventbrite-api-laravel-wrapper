@@ -1,7 +1,7 @@
 {
   "name": "megangrennell/eventbrite",
   "description": "Laravel PHP Facade/Wrapper for the Eventbrite Data API v3",
-  "keywords": ["eventbrite", "api", "event", "laravel", "marat555"],
+  "keywords": ["eventbrite", "api", "event", "laravel"],
   "homepage": "https://github.com/megangrennell/eventbrite-api-laravel-wrapper",
   "license": "MIT",
   "authors": [
@@ -11,6 +11,7 @@
     }
   ],
   "require": {
+    "megangrennell/eventbrite": "dev-master@dev"
     "illuminate/support": "^6.0",
     "php": "^7.2",
     "guzzlehttp/guzzle": "^6.0",
