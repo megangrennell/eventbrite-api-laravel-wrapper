@@ -11,12 +11,8 @@
       "email": "marat.badykov.555@gmail.com"
     }
   ],
-  "repositories": [
-    {"type": "composer", "url": "https://repo.packagist.com/megangrennell/"},
-    {"packagist.org": false}
-], 
   "require": {
-    "megangrennell/eventbrite-api-laravel-wrapper": "dev-master",
+    "illuminate/support": "^6.0",
     "php": "^7.4",
     "guzzlehttp/guzzle": "^6.0",
     "ext-json": "*"
