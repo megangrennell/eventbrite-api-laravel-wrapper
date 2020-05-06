@@ -30,15 +30,5 @@
     "psr-4": {
       "megangrennell\\Eventbrite\\": "tests/"
     }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "megangrennell\\Eventbrite\\EventbriteServiceProvider"
-      ],
-      "aliases": {
-        "Eventbrite": "megangrennell\\Eventbrite\\Facades\\Eventbrite"
-      }
-    }
   }
 }
