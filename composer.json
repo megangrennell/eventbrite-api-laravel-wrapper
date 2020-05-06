@@ -12,11 +12,9 @@
     }
   ],
   "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/megangrennell/eventbrite-api-laravel-wrapper.git"
-    }
-  ],
+    {"type": "composer", "url": "https://repo.packagist.com/megangrennell/"},
+    {"packagist.org": false}
+], 
   "require": {
     "megangrennell/eventbrite-api-laravel-wrapper": "dev-master",
     "php": "^7.4",
