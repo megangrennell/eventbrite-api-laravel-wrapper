@@ -1,5 +1,6 @@
 {
   "name": "megangrennell/eventbrite-api-laravel-wrapper",
+  "type": "library",
   "description": "Laravel PHP Facade/Wrapper for the Eventbrite Data API v3",
   "keywords": ["eventbrite", "api", "event", "laravel"],
   "homepage": "https://github.com/megangrennell/eventbrite-api-laravel-wrapper",
@@ -10,7 +11,14 @@
       "email": "marat.badykov.555@gmail.com"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/megangrennell/eventbrite-api-laravel-wrapper.git"
+    }
+  ],
   "require": {
+    "megangrennell/eventbrite-api-laravel-wrapper": "dev-master",
     "php": "^7.4",
     "guzzlehttp/guzzle": "^6.0",
     "ext-json": "*"
